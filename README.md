@@ -1,5 +1,16 @@
 # Bike_Sharing_Demand_Prediction
 
+## Project Summary -
+The project involved building and evaluating different regression machine learning models for predicts the count of bike rentals, such as linear regression, Ridge regression, Lasso regression, ElasticNet regression, and RandomForest regression. The models were trained and evaluated using various metrics such as MSE, RMSE, R2, and Adjusted R2 on both the training and test datasets.
+
+The RandomForest model demonstrated the best performance without overfitting, as it exhibited lower MSE and RMSE values, higher R2 values (Training dataset - 0.984354, test datasets - 0.895198) and high Adjusted R2 values (training datasets -0.894506 , test datasets - 0.892371) on both the training and test datasets.
+
+RandomForest model is also explained with the help of shap library.
+
+## Problem Statement
+Currently Rental bikes are introduced in many urban cities for the enhancement of mobility comfort. It is important to make the rental bike available and accessible to the public at the right time as it lessens the waiting time. Eventually, providing the city with a stable supply of rental bikes becomes a major concern. The crucial part is the prediction of bike count required at each hour for the stable supply of rental bikes.
+
+
 ## Conclusion
 
 ### EDA Insight:
